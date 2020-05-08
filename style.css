@@ -1,4 +1,196 @@
-h1,p,body{
-    color: red;
-    background-color: aquamarine;
+.cbox {
+    padding-top: 10px;
+    background-color: steelblue;
+}
+
+
+/* .dbox{
+    height: 30px;
+    background-color: aqua;
+    display: inline ;
+} */
+
+.pbox {
+    height: auto;
+    display: inline;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 70px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.icon {
+    height: 30px;
+    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.btnn {
+    font-size: 12px;
+    color: seagreen;
+}
+
+.saylogo {
+    padding-right: 50px;
+    margin-right: 500px;
+    margin-left: 50px;
+}
+
+.navvs {
+    display: inline;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    height: auto;
+}
+
+.navcls:hover {
+    background-color: rgb(34, 112, 177);
+}
+
+.textbar {
+    background-color: steelblue;
+    margin-top: 10px;
+    width: 1250px;
+}
+
+.intro p {
+    margin: 0;
+    padding: 0;
+    font-size: 34px;
+    display: inline-block;
+    line-height: 80px;
+    font-family: Merriweather;
+    font-weight: bold;
+}
+
+.intro {
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.web1 {
+    color: royalblue;
+}
+
+.web2 {
+    color: green;
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('Fonts/Merriweather-Regular.ttf');
+}
+
+.favicon {
+    text-align: center;
+    line-height: 1.9;
+    margin-bottom: 15px;
+}
+
+.info {
+    text-align: center;
+}
+
+.wow {
+    margin-top: 10px;
+    /* margin-left: 50px;
+    margin-right: 50px; */
+    margin-right: 200px;
+    margin: auto;
+}
+
+.items {
+    height: auto;
+    background-color: rgb(34, 112, 177);
+    margin-top: 100px;
+    max-height: 2000px;
+    float: left;
+    margin-bottom: 40px;
+}
+
+@font-face {
+    font-family: 'librebasker';
+    src: url("Fonts/LibreBaskerville-Bold.ttf");
+}
+
+.food {
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    margin-left: 70px;
+    margin-right: 30px;
+    font-size: 10px;
+    display: inline;
+    justify-content: safe;
+}
+
+.sadqah {
+    height: 200px;
+    width: 375px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    /* padding-left: 50px; */
+    font-size: 10px;
+    display: inline;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 5px 5px 10px 10px whitesmoke;
+}
+
+.section {
+    background-color: white;
+}
+
+.pro {
+    margin-top: 50px;
+    color: steelblue;
+    margin-left: 12px;
+}
+
+.hepa {
+    display: inline;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* justify-content: space-between; */
+}
+
+.hepat {
+    height: 70px;
+    max-height: 500px;
+    /* width: 400px; */
+    background-color: whitesmoke;
+    border: 1px;
+    justify-content: start;
+    /* margin-right: 100px; */
+    margin-left: 10px;
+    margin-top: 30px;
+    /* padding-left: 100px; */
+}
+
+.events {
+    margin-top: 50px;
+    color: steelblue;
+    margin-left: 12px;
+}
+
+.words {
+    height: 110px;
+}
+
+.foot {
+    background-color: darkslategrey;
+    height: 400px;
+}
+
+.up {
+    margin-top: 50px;
+    color: steelblue;
+    margin-left: 500px;
 }
